@@ -12,7 +12,7 @@ const app = express();
 
 // Allow CORS from frontend
 app.use(cors({
-  origin: 'http://localhost:3000' // Adjust if your frontend is hosted somewhere else
+  origin: 'https://blog-frontend-theta-pearl.vercel.app/' // Adjust if your frontend is hosted somewhere else
 }));
 
 app.use(express.json());
